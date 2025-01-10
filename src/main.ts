@@ -12,10 +12,9 @@ import 'zone.js';
 import { Rut, RutDirective, RutPipe } from 'ngx-chilean-rut';
 
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [ReactiveFormsModule, FormsModule, RutPipe, RutDirective],
-  template: `
+    selector: 'app-root',
+    imports: [ReactiveFormsModule, FormsModule, RutPipe, RutDirective],
+    template: `
     <div class="container">
   <div class="row">
    <h1>Rut Tester</h1>
@@ -49,7 +48,7 @@ import { Rut, RutDirective, RutPipe } from 'ngx-chilean-rut';
   </div>
 
 </div>
-  `,
+  `
 })
 export class App {
   public formulario: FormGroup;
