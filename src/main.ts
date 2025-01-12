@@ -67,4 +67,6 @@ export const appConfig: ApplicationConfig = {
     provideNgxRutProvider()
   ]};
 
-bootstrapApplication(App);
+  bootstrapApplication(App, appConfig).catch((err) =>
+  console.error(err)
+);
