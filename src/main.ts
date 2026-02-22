@@ -9,7 +9,7 @@ import {
 import { bootstrapApplication } from '@angular/platform-browser';
 import 'zone.js';
 
-import { RutValidator, RutDirective, RutPipe, provideNgxRutProvider } from 'ngx-chilean-rut';
+import { RutValidator, RutDirective, RutPipe, provideNgxRut } from 'ngx-chilean-rut';
 
 @Component({
     selector: 'app-root',
@@ -64,7 +64,7 @@ export class App {
 
 export const appConfig: ApplicationConfig = {
   providers: [
-    provideNgxRutProvider()
+    provideNgxRut()
   ]};
 
   bootstrapApplication(App, appConfig).catch((err) =>
