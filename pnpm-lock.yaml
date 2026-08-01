@@ -27,8 +27,8 @@ dependencies:
     specifier: ^19.0.6
     version: 19.0.6(@angular/common@19.0.6)(@angular/core@19.0.6)(@angular/platform-browser@19.0.6)(rxjs@7.8.1)
   ngx-chilean-rut:
-    specifier: ^0.0.10
-    version: 0.0.10(@angular/common@19.0.6)(@angular/core@19.0.6)
+    specifier: ^0.0.18
+    version: 0.0.18(@angular/common@19.0.6)(@angular/core@19.0.6)
   rxjs:
     specifier: ^7.8.1
     version: 7.8.1
@@ -3011,11 +3011,11 @@ packages:
     engines: {node: '>= 0.6'}
     dev: true
 
-  /ngx-chilean-rut@0.0.10(@angular/common@19.0.6)(@angular/core@19.0.6):
-    resolution: {integrity: sha512-6Oh4G8NNcJjjOHUK5rNkf4BQ54H79AxyaAKRJC/bAPn67I4tRqE+zyMJL3+Ze+luHVYK/ytUdDChVZAfKC0mSA==}
+  /ngx-chilean-rut@0.0.18(@angular/common@19.0.6)(@angular/core@19.0.6):
+    resolution: {integrity: sha512-jj1CEn6jfgiceYp8xdrPb89Czb0+jQvfH0em1IKxfCa0z6Qw3mEDXdriuIXXQokrLAeYgs1f8bECSpZdwnyKjg==}
     peerDependencies:
-      '@angular/common': ^19.0.0
-      '@angular/core': ^19.0.0
+      '@angular/common': ^21.0.0
+      '@angular/core': ^21.0.0
     dependencies:
       '@angular/common': 19.0.6(@angular/core@19.0.6)(rxjs@7.8.1)
       '@angular/core': 19.0.6(rxjs@7.8.1)(zone.js@0.15.0)
